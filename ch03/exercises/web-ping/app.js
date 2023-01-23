@@ -12,7 +12,7 @@ console.log(
   process.env.INTERVAL
 );
 
-process.on("SIGINT", function() {
+process.on("SIGINT", function () {
   process.exit();
 });
 
@@ -25,7 +25,7 @@ setInterval(() => {
     var end = new Date().getTime();
     var duration = end - start;
     console.log(
-      "Got response status: %s at %d; duration: %dms",
+      "Got response status: %s at %d; duration: %dms _end_status",
       res.statusCode,
       end,
       duration

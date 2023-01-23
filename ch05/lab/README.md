@@ -31,13 +31,15 @@ e.g.
 
 ```
 Docker-Content-Digest: sha256:127d0ed6f7a8d148a39b7ea168c083694d030e2bffbda60cb53057e731114fbb
+
+Docker-Content-Digest: sha256:41bc01e7e5a525db62098e685b364e94a686b99c6f208459b8e3971ddabfdc8a
 ```
 
 ## Delete
 
 ```
 curl -X DELETE \
-  http://registry.local:5000/v2/gallery/ui/manifests/sha256:127d0ed6f7a8d148a39b7ea168c083694d030e2bffbda60cb53057e731114fbb
+  http://registry.local:5000/v2/gallery/ui/manifests/sha256:41bc01e7e5a525db62098e685b364e94a686b99c6f208459b8e3971ddabfdc8a
 ```
 
 ## Check 
