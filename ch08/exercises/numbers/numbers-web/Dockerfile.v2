@@ -12,6 +12,7 @@ FROM diamol/dotnet-aspnet
 
 ENV RngApi:Url=http://numbers-api/rng
 
+# Najpierw sprawdza czy api jest dostepne jeżeli tak to po && wykona polecenie uruchomienia aplikacji
 CMD curl --fail http://numbers-api/rng && \
     dotnet Numbers.Web.dll
 

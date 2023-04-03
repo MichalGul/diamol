@@ -291,3 +291,4 @@ __pycache__/
 # Docker Compose Viz
 .cache/
 ch20/exercises/c.txt
+ch07/lab/data/postgres/

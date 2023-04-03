@@ -1,6 +1,6 @@
 version: "3.7"
 
-x-labels: &logging
+x-logging: &logging
   logging:  
     options:
       max-size: '100m'
