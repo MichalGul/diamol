@@ -26,6 +26,7 @@ ARG BUILD_TAG=local
 LABEL version="3.0"
 LABEL build_number=${BUILD_NUMBER}
 LABEL build_tag=${BUILD_TAG}
+LABEL dupa="kupa"
 
 ENTRYPOINT ["dotnet", "Numbers.Api.dll"]
 HEALTHCHECK CMD ["dotnet", "Utilities.HttpCheck.dll", "-u", "http://localhost/health"]

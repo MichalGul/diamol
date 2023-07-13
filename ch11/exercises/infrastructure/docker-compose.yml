@@ -16,7 +16,7 @@ services:
       - infrastructure
 
   jenkins:
-    image: diamol/jenkins
+    image: diamol/jenkins:v3
     ports:
       - "8080:8080"
     networks:
