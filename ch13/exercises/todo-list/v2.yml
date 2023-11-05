@@ -6,6 +6,7 @@ services:
     ports:
       - 8080:80
     deploy:
+    
       replicas: 2
       resources:
         limits:
