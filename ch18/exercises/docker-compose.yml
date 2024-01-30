@@ -44,6 +44,7 @@ services:
 networks:
   iotd-net:
 
+
 secrets:
   access-log-config:
     file: access-log/config/dev/local.json
