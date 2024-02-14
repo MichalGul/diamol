@@ -10,11 +10,15 @@ services:
 
   todo-db:
     image: diamol/postgres:11.5
+    ports:
+     - 5444:5432
     networks:
       - app-net
 
   message-queue:
     image: diamol/nats
+    environment:
+      POSTGRES_PASSWORD: example
     ports:
       - "8222:8222"
     networks:
